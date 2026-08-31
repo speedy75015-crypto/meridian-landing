@@ -1,0 +1,127 @@
+{
+  "title": "Choisir le monde visuel — Meridian Landing Page",
+  "question": "Les dés ont assigné le Constructivisme soviétique. Un challenger l'a battu sur les deux axes. Gardez l'assigné, prenez le gagnant, choisissez une carte, ou re-tirez.",
+  "options": [
+    {
+      "id": "assigned-constructivist",
+      "label": "Manifeste Constructiviste",
+      "kicker": "THE ROLL",
+      "lineage": "Affiches soviétiques des années 1920 — Rodchenko, Lissitzky, VKHUTEMAS",
+      "thesis": "Déployer du logiciel est un acte de volonté collective, pas un pari. Meridian est le Gosplan du pipeline — audacieux, géométrique, chaque release traitée comme une décision historique.",
+      "palette": ["#c8001a", "#0f0f0f", "#f5f0e8", "#1a3a6b"],
+      "materials": ["diagonales fortes", "typographie bloc condensée", "aplats rouge/noir/blanc"],
+      "viewport": "Fond noir. Grand titre condensé en diagonale descendante, rouge sur noir. Forme géométrique — triangle ou étoile — portant le tagline produit en blanc. Interface Meridian comme affiche d'usine : pipeline de release stylisé en lignes géométriques. CTA 'Obtenir l'accès' en bloc rouge, bas gauche.",
+      "risk": "Exige un engagement total — rendu timide, ça devient kitsch. Fort pour les devs, inattendu pour les décideurs B2B traditionnels.",
+      "raised": [
+        {
+          "from": "lowicz-papercut",
+          "raise": "Plans en profondeur : les étapes de déploiement s'empilent en z comme des aplats géométriques distincts, jamais une surface plate."
+        },
+        {
+          "from": "akari-light",
+          "raise": "La lumière comme état : les éléments actifs s'illuminent en rouge chaud, les éléments inactifs se désaturent en contours."
+        },
+        {
+          "from": "webgl-shader",
+          "raise": "Système vivant : un élément animé subtil dans le hero — une ligne de pipeline qui pulse — donne au statique un battement de cœur."
+        }
+      ]
+    },
+    {
+      "id": "model-pick-atc",
+      "label": "Mission Control",
+      "kicker": "IMPECCABLE'S PICK",
+      "lineage": "Affichage radar ATC, centres de contrôle spatial, monitoring de mission",
+      "thesis": "Meridian comme centre de commandement orbital : chaque déploiement est une trace sur le radar, balayant de staging à production, les indicateurs de santé comme altimètres.",
+      "palette": ["#0a0e14", "#00e87c", "#1a3a2a", "#ff6b35", "#94a3b8"],
+      "materials": ["arc de balayage radar", "pile télémétriques monospace", "grille orbitale fine"],
+      "viewport": "Fond noir profond avec grille fine ; un grand arc de balayage radar occupe les deux tiers gauches, les traces de déploiement comme blips en mouvement avec readouts de santé. Nom produit en monospace condensé, haut gauche. Colonne de gate board slim, bord droit. CTA 'Rejoindre le radar' — pulsé, bas centre.",
+      "risk": "Mon candidat numéro un — la direction où la plupart des runs pour un produit monitoring/ops atterrissent. Efficace et bien compris, mais familier."
+    },
+    {
+      "id": "challenger-boarding-pass",
+      "label": "Departure Board",
+      "verdict": "wins",
+      "lineage": "Cartes d'embarquement aéroport et tableaux de départs — FIDS, boarding passes segmentés",
+      "thesis": "Chaque release Meridian est un vol : un manifest de boarding pass, un tableau de départs en direct, et la certitude que chaque siège est confirmé avant le push en prod.",
+      "palette": ["#0f0f11", "#f0eeeb", "#e84040", "#22c55e", "#6b7280"],
+      "materials": ["panneaux aéroport haute-contrast", "bloc monospace scannable", "animation re-ranking live"],
+      "viewport": "Hero divisé en deux panneaux : gauche, un boarding pass manifest pour la dernière release (numéro de version = code vol, cible de déploiement = gate, timestamp = heure de départ, métriques clés = classe cabine) ; droit, un tableau de départs live récents classés par statut, chaque ligne se repositionnant sur changement. CTA 'Demander l'accès' ancré en bas droite du boarding pass.",
+      "risk": "Métaphore intelligente — à condition que la densité d'information soit suffisamment élevée pour convaincre des décideurs enterprise.",
+      "case": "Gagne sur les deux axes : identification audience (devs et B2B reconnaissent immédiatement un tableau de départs) et clarté produit (le mécanisme — queue de déploiements avec statuts live — est immédiatement lisible).",
+      "hero": "https://impeccable.style/worlds/cards/vernacular-ephemera-boarding-pass-and-gate-board-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/vernacular-ephemera-boarding-pass-and-gate-board.webp"
+    },
+    {
+      "id": "challenger-racing-livery",
+      "label": "Endurance Pit",
+      "verdict": "competitive",
+      "lineage": "Livrées Gulf 917 et Martini — Le Mans, Porsche, pit board d'endurance",
+      "thesis": "Meridian comme équipe d'endurance : stripes Gulf bleu poudre + marigold, releases numérotées comme voitures de course, pit board talliant les laps de pipeline.",
+      "palette": ["#5ba4cf", "#f5a623", "#1a1a2e", "#ffffff"],
+      "materials": ["système de stripes livraison horizontal", "roundel numéroté", "grille pit board"],
+      "viewport": "Plein-fond avec une forte stripe marigold horizontale à 30% de hauteur, nom produit en grotesk heavy dans un roundel blanc, ancré à gauche. Sous la stripe : grille de release IDs style numéro de course et pit board live. CTA en style roundel, côté droit.",
+      "risk": "L'iconographie racing résonne fort avec les ingénieurs, mais demande un moment de traduction pour les décideurs B2B non techniques.",
+      "case": "Gagne sur l'identification audience (iconographie culturelle que les devs connaissent viscéralement), compétitif sur la clarté produit (la métaphore nécessite un temps de compréhension).",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-endurance-livery-garage-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/pop-culture-shelf-endurance-livery-garage.webp"
+    },
+    {
+      "id": "challenger-nixie",
+      "label": "Compteur à Tube Nixie",
+      "verdict": "competitive",
+      "lineage": "Compteurs de laboratoire à tubes nixie — chiffres plasma orange dans enveloppes de verre",
+      "thesis": "Meridian comme instrument de mesure de précision : tubes nixie comptant les déploiements live, chaque chiffre en plasma orange, chaque métrique une lecture physique.",
+      "palette": ["#0d0d0d", "#ff6c20", "#2a2a2a", "#e0e0e0"],
+      "materials": ["banque de tubes en verre", "lueur plasma chiffre", "maillage anode hairline"],
+      "viewport": "Fond châssis quasi-noir, une rangée de 6 banques de tubes nixie traversant la largeur du hero affichant les métriques clés (déploiements aujourd'hui, taux de succès, pipelines actifs, temps moyen, vélocité équipe, uptime). Nom produit en lettres gravées en-dessous. CTA 'Commencer à mesurer'. Lueur orange diffuse dans le fond.",
+      "risk": "Fort avec les devs (l'attrait rétro-tech est réel), plus faible pour les décideurs B2B qui peuvent lire ça comme hobbyiste plutôt qu'enterprise.",
+      "case": "Gagne sur l'identification devs (nixie fetish est réel), compétitif sur la clarté produit (le comptage est juste mais le mécanisme n'est pas montré).",
+      "hero": "https://impeccable.style/worlds/cards/signals-instruments-nixie-laboratory-counter-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/signals-instruments-nixie-laboratory-counter.webp"
+    },
+    {
+      "id": "challenger-lowicz",
+      "label": "Découpe Papier Folk",
+      "verdict": "declined",
+      "lineage": "Wycinanki de Łowicz — papercut symétrique polonais en couches de couleur",
+      "palette": ["#d42b2b", "#2d6e2d", "#f5d016", "#1a2e7a", "#f5f0e8"],
+      "materials": ["papiers couleur aplats en couches", "symétrie radiale"],
+      "kept": "Profondeur en couches : des plans empilés distinctement sans ombrage — élevé dans la direction assignée."
+    },
+    {
+      "id": "challenger-akari",
+      "label": "Sculpture Akari",
+      "verdict": "declined",
+      "lineage": "Lampes Akari d'Isamu Noguchi — washi sur armatures bambou",
+      "palette": ["#f5ead0", "#8b6914", "#1a1a1a", "#c8291a"],
+      "materials": ["washi translucide", "lumière diffuse"],
+      "kept": "Lumière comme indicateur d'état : chaud = actif, contour plat = inactif — élevé dans la direction assignée."
+    },
+    {
+      "id": "challenger-webgl",
+      "label": "Portail Shader WebGL",
+      "verdict": "declined",
+      "lineage": "Studio expérientiel — shader GPU plein-écran, type fin flottant sur pixels vivants",
+      "palette": ["#050508", "#7c3aed", "#e879f9", "#f0f0f0"],
+      "materials": ["fragment shader GPU", "grain de film fin"],
+      "kept": "Système vivant : mouvement continu doux signifiant que le produit est en opération — élevé dans la direction assignée."
+    }
+  ],
+  "reroll": {
+    "registers": ["safer", "bolder"]
+  },
+  "buildPath": {
+    "value": "code"
+  },
+  "canon": true,
+  "canonCard": {
+    "label": "Le Standard SaaS",
+    "thesis": "Grille blanche propre, primary bleu, hero avec screenshot produit — l'arrangement que chaque visiteur SaaS connaît déjà.",
+    "palette": ["#ffffff", "#111827", "#2563eb", "#f9fafb"],
+    "materials": ["grille propre", "screenshot produit", "cartes arrondies"],
+    "viewport": "Hero centré : headline + subhead + 2 CTAs au-dessus d'un screenshot browser. Grille de features en-dessous.",
+    "risk": "Indiscernable de la concurrence, par conception."
+  },
+  "steer": true
+}
